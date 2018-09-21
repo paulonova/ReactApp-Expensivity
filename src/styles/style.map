@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/base/_settings.scss",
+		"../sass/base/_base.scss"
+	],
+	"sourcesContent": [
+		"@import './base/_settings';\r\n@import './base/_base';\r\n",
+		"\r\n// COLORS\r\n\r\n\r\n\r\n//SPACING\r\n$s-size: 1.2rem;\r\n$m-size: 1.6rem;\r\n$l-size: 3.2rem;\r\n$xl-size: 4.8rem;\r\n\r\n//SCREENS\r\n$desktop-breakpoint: 45rem",
+		"\r\nhtml{\r\n    font-size: 62.5%;\r\n}\r\n\r\nbody{\r\n    font-family: Helvetica, Arial, sans-serif;\r\n    font-size: 1.6rem;\r\n}\r\n\r\nbutton{\r\n    cursor: pointer;\r\n}\r\n\r\nbutton:disabled{\r\n    cursor: default;\r\n}\r\n\r\n.is-active{\r\n    font-weight: bold;\r\n    color: blue;\r\n}\r\n"
+	],
+	"mappings": ";AECA,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAM;CACpB;;;AAED,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,4BAA6B;EAC1C,SAAS,EAAE,MAAO;CACrB;;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,OAAQ;CACnB;;;AAED,AAAM,MAAA,AAAA,SAAS,CAAA;EACX,MAAM,EAAE,OAAQ;CACnB;;;AAED,AAAA,UAAU,CAAA;EACN,WAAW,EAAE,IAAK;EAClB,KAAK,EAAE,IAAK;CACf",
+	"names": []
+}
