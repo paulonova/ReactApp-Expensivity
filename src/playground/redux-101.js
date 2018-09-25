@@ -18,9 +18,13 @@ const setCount = ({count})=>({
 
 const reset = () => ({
     type: 'RESET'
-})
+});
 
-const store = createStore((state={count: 0}, action) => {
+//Reducer
+// 1. Reducers are pure functions
+// 2. Never change state or action
+
+const countReducer = (state={count: 0}, action) => {
 
     switch(action.type){
         
@@ -43,7 +47,11 @@ const store = createStore((state={count: 0}, action) => {
         default:
             return state;
     }
-});
+}
+
+
+
+const store = createStore(countReducer);
 
 
 const unsubscribe = store.subscribe(() =>{
